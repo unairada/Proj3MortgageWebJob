@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/urada/Projects/Proj3gradRadaDafonte/MortgageWebJob/MortgageWebJob.csproj": {}
+  },
+  "projects": {
+    "/Users/urada/Projects/Proj3gradRadaDafonte/ModelClasses/ModelClasses.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/urada/Projects/Proj3gradRadaDafonte/ModelClasses/ModelClasses.csproj",
+        "projectName": "ModelClasses",
+        "projectPath": "/Users/urada/Projects/Proj3gradRadaDafonte/ModelClasses/ModelClasses.csproj",
+        "packagesPath": "/Users/urada/.nuget/packages/",
+        "outputPath": "/Users/urada/Projects/Proj3gradRadaDafonte/ModelClasses/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/urada/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/urada/Projects/Proj3gradRadaDafonte/MortgageWebJob/MortgageWebJob.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/urada/Projects/Proj3gradRadaDafonte/MortgageWebJob/MortgageWebJob.csproj",
+        "projectName": "MortgageWebJob",
+        "projectPath": "/Users/urada/Projects/Proj3gradRadaDafonte/MortgageWebJob/MortgageWebJob.csproj",
+        "packagesPath": "/Users/urada/.nuget/packages/",
+        "outputPath": "/Users/urada/Projects/Proj3gradRadaDafonte/MortgageWebJob/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/urada/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/urada/Projects/Proj3gradRadaDafonte/ModelClasses/ModelClasses.csproj": {
+                "projectPath": "/Users/urada/Projects/Proj3gradRadaDafonte/ModelClasses/ModelClasses.csproj"
+              },
+              "/Users/urada/Projects/Proj3gradRadaDafonte/Utilities/Utilities.csproj": {
+                "projectPath": "/Users/urada/Projects/Proj3gradRadaDafonte/Utilities/Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Azure.Data.Tables": {
+              "target": "Package",
+              "version": "[3.0.0-beta.5, )"
+            },
+            "Microsoft.Azure.WebJobs": {
+              "target": "Package",
+              "version": "[3.0.27, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.Storage.Queues": {
+              "target": "Package",
+              "version": "[5.0.0-beta.2, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/urada/Projects/Proj3gradRadaDafonte/Utilities/Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/urada/Projects/Proj3gradRadaDafonte/Utilities/Utilities.csproj",
+        "projectName": "Utilities",
+        "projectPath": "/Users/urada/Projects/Proj3gradRadaDafonte/Utilities/Utilities.csproj",
+        "packagesPath": "/Users/urada/.nuget/packages/",
+        "outputPath": "/Users/urada/Projects/Proj3gradRadaDafonte/Utilities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/urada/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

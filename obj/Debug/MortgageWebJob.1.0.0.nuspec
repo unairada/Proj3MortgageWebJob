@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MortgageWebJob</id>
+    <version>1.0.0</version>
+    <authors>MortgageWebJob</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="ModelClasses" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Utilities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Azure.Data.Tables" version="3.0.0-beta.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.WebJobs.Extensions" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.WebJobs.Extensions.Storage.Queues" version="5.0.0-beta.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Console" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/urada/Projects/Proj3gradRadaDafonte/MortgageWebJob/bin/Debug/netcoreapp3.1/MortgageWebJob.runtimeconfig.json" target="lib/netcoreapp3.1/MortgageWebJob.runtimeconfig.json" />
+    <file src="/Users/urada/Projects/Proj3gradRadaDafonte/MortgageWebJob/bin/Debug/netcoreapp3.1/MortgageWebJob.dll" target="lib/netcoreapp3.1/MortgageWebJob.dll" />
+  </files>
+</package>
